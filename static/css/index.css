@@ -1,0 +1,214 @@
+.el-menu-demo{
+    border-bottom: none !important;
+    margin-left: 30px;
+}
+.banner-item{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 100px;
+    font-size: 30px;
+}
+.banner0{
+    background: url(../../static/images/banner1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.banner1{
+    background: url(../../static/images/banner2.png) no-repeat;
+    background-size: 100% 100%;
+}
+.banner2{
+    background: url(../../static/images/banner3.png) no-repeat;
+    background-size: 100% 100%;
+}
+.banner3{
+    background: url(../../static/images/banner4.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.index-item{
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+.item-title{
+    text-align: center;
+}
+.item-title h1{
+    font-size: 30px;
+    color: #333333 !important;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+.item-title h4{
+    font-size: 12px;
+    color: #333333 !important;
+    font-weight: 800;
+}
+.item-show{
+    width: 100%;
+}
+.item-show-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-1-list{
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+.show-1-list li{
+    list-style: none;
+    text-align: right;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 20px;
+    margin: 30px 0;
+    font-size: 22px;
+}
+.items-2{
+    width: 100%;
+    height: 580px;
+    background: url(../images/solutionBg.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.items-2 h1,.items-2 h4 {
+    color: #ffffff !important;
+}
+.look-btn{
+    display: block;
+    margin: auto;
+    
+}
+.item-3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.every-item-3{
+    width: 596px;
+    text-align: center;
+    border:1px solid #dcdcdc;
+    height: 300px;
+}
+.img-w{
+    
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+.img-w img{
+    margin: auto;
+    transition: transform 1.45s ease-out;
+}
+.img-w img:hover{
+    transform: scale(1.5);
+}
+.every-item-3 h1{
+    color: #333333;
+    font-size: 25px;
+    font-weight: 600;
+}
+.every-item-3 p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+.every-item-4{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item-4-list{
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-4-list p{
+    margin-top: 44px;
+    font-size: 22px;
+    color: inherit;
+}
+.item-4-list:nth-of-type(1){
+    background: #409EFF !important;
+    color: #ffffff !important;
+}
+.item-4-list:nth-last-of-type(1){
+    background: #409EFF !important;
+    color: #ffffff !important;
+}
+.item-4-list:nth-of-type(3n){
+    background: #eeee;
+}
+.every-item-6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.item-6-list{
+    width: 50%;
+    height: 290px;
+}
+.item-6-list li{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 30px;
+    color: #ffffff;
+}
+li.last-list-item{
+    color: #333;
+    margin-right: 10px;
+}
+.el-carousel__item h3 {
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+  }
+  
+  .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }
+  .every-item-7,.item-7-list li{
+      display: flex;
+      justify-content: space-between;
+  }
+  .item-7-list li{
+      width: 580px;
+      color: #000;
+      padding: 15px 0;
+      border-bottom: 1px dashed #ddd;
+  }
+  .item-7-list li p{
+      color: inherit;
+  }
+  .item-7-tips{
+      font-size: 18px;
+      color: #409EFF;
+      padding-left: 10px;
+      border-left: 4px solid #409EFF;
+      margin-bottom: 20px;
+  }

@@ -1,0 +1,118 @@
+.prodect-container{
+    width: 100%;
+}
+.like-banner{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    background: url(../images/pBanner.png) no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    color: #ffffff;
+}
+.pd-content{
+    width: 1200px;
+    margin: auto;
+}
+.pd-des{
+    margin: 40px auto;
+}
+.pd-des p{
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+    text-align: center;
+}
+.pd-item > h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333333;
+}
+.pd-item > p{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #333333;
+}
+.big-img{
+    display: block;
+    margin: 30px auto;
+}
+.pd-1-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pd-1-list > div {
+    width: 50%;
+    height: 210px;
+}
+.list-str{
+    box-sizing: border-box;
+    padding:15px 0 0 40px;
+}
+.list-str > h3{
+    font-size: 22px;
+    margin: 15px 0;
+    text-align: left;
+    color: #333333;
+}
+.list-str > p{
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+    color: #333333;
+}
+.pd-item-2{
+    width: 100%;
+    background: url(../images/application.png) no-repeat;
+    background-size: cover;
+    padding: 30px 0 20px 0;
+}
+.list-tool{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-tool li{
+    background: url(../images/iconright.png) no-repeat;
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 25px;
+    margin: 20px 0;
+}
+.phone-four{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.four-img{
+    display: block;
+}
+.phone-four p{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 22px;
+    color: #ffffff;
+}
+.pd-last-item{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pd-last-item p{
+    font-size: 22px;
+    color: #333333;
+}
